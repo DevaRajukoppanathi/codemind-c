@@ -1,13 +1,21 @@
 #include<stdio.h>
 int main()
 {
-    int i,n,j;
+    int n;
     scanf("%d",&n);
+    int i,j;
     for(i=1;i<=n;i++)
     {
-        for(j=i;j<=n;j++)
+        for(j=1;j<=n;j++)
         {
-            printf("%d ",j);
+            if(i==j || j==n-i+1)
+            {
+                printf("%d ",n-i+1);
+            }
+            else
+            {
+                printf(" ");
+            }
         }
         printf("
 ");
