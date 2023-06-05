@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,c=0,j=0,r;
+    int n,r,c=0,j=0;
     scanf("%d",&n);
     while(n>0)
     {
@@ -18,5 +18,4 @@ int main()
     printf("Odd");
     else
     printf("Mixed");
-    
 }
